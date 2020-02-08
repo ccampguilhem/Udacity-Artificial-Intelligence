@@ -62,4 +62,16 @@ for countries.
 
 A tutorial for the use of [Regular Expressions](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285).
 
+### NLP Pipelines
+
+#### Word embedding techniques
+
+[Word2Vec](https://www.youtube.com/watch?time_continue=9&v=7jjappzGRe0&feature=emb_logo)
+
+[GloVe](https://www.youtube.com/watch?v=KK3PMIiIn8o&feature=emb_logo)
+
+[Uses](https://www.youtube.com/watch?time_continue=2&v=gj8u1KG0H2w&feature=emb_logo) in Deep Learning.
+
+Visualization of word embedding with [t-SNE](https://www.youtube.com/watch?v=xxcK8oZ6_WE&feature=emb_logo)
+
 
