@@ -74,4 +74,13 @@ A tutorial for the use of [Regular Expressions](https://medium.com/factory-mind/
 
 Visualization of word embedding with [t-SNE](https://www.youtube.com/watch?v=xxcK8oZ6_WE&feature=emb_logo)
 
+### Machine Learning Pipelines
+
+You can implement your own Estimator, Classifier or Transformer with 
+[Scikit-Learn](https://scikit-learn.org/stable/developers/develop.html?highlight=custom%20transformer)
+
+There is also a [class](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.FunctionTransformer.html#sklearn.preprocessing.FunctionTransformer) to create a transformer from an existing function.
+
+
+
 
