@@ -81,6 +81,14 @@ You can implement your own Estimator, Classifier or Transformer with
 
 There is also a [class](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.FunctionTransformer.html#sklearn.preprocessing.FunctionTransformer) to create a transformer from an existing function.
 
+## Neural Networks
 
+### Gradient Descent
+
+Using [momentum](https://distill.pub/2017/momentum/) with gradient descent to avoid falling into local minimum.
+
+### Backpropagation algorithm
+
+Backpropagation algorithm explained [here](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b#.vt3ax2kg9) and [there](https://www.youtube.com/watch?v=59Hbtz7XgjM) by Andrej Karpathy.
 
 
