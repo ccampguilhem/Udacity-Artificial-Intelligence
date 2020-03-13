@@ -83,6 +83,11 @@ There is also a [class](https://scikit-learn.org/stable/modules/generated/sklear
 
 ## Neural Networks
 
+### Udacity GitHub repos
+
+https://github.com/udacity/DSND_Term1
+
+
 ### Gradient Descent
 
 Using [momentum](https://distill.pub/2017/momentum/) with gradient descent to avoid falling into local minimum.
@@ -90,5 +95,11 @@ Using [momentum](https://distill.pub/2017/momentum/) with gradient descent to av
 ### Backpropagation algorithm
 
 Backpropagation algorithm explained [here](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b#.vt3ax2kg9) and [there](https://www.youtube.com/watch?v=59Hbtz7XgjM) by Andrej Karpathy.
+
+### PyTorch
+
+PyTorch [installation](https://pytorch.org/get-started/locally/).
+
+PyTorch API [documentation](https://pytorch.org/docs/stable/torch.html).
 
 
