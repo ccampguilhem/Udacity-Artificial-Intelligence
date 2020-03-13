@@ -92,6 +92,8 @@ https://github.com/udacity/DSND_Term1
 
 Using [momentum](https://distill.pub/2017/momentum/) with gradient descent to avoid falling into local minimum.
 
+[Optimization algorithms](https://ruder.io/optimizing-gradient-descent/index.html#rmsprop)
+
 ### Backpropagation algorithm
 
 Backpropagation algorithm explained [here](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b#.vt3ax2kg9) and [there](https://www.youtube.com/watch?v=59Hbtz7XgjM) by Andrej Karpathy.
@@ -101,5 +103,15 @@ Backpropagation algorithm explained [here](https://medium.com/@karpathy/yes-you-
 PyTorch [installation](https://pytorch.org/get-started/locally/).
 
 PyTorch API [documentation](https://pytorch.org/docs/stable/torch.html).
+
+### Keras
+
+[Optimizers](https://keras.io/optimizers/)
+
+### CUDA
+
+We can use the `nvidia-smi` command to monitor the GPU usage.
+
+
 
 
