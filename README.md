@@ -2,6 +2,12 @@
 
 Cédric Campguilhem, 2020
 
+## Projects
+
+Project | Description                     | Link
+--------|---------------------------------|------- 
+01      | Deep learning: image classifier | ./02_Deep_Neural_Networks/P01_Image_Classifier/Image_Classifier_Project.ipynb
+
 ## Data Engineering
 
 ### ETL pipeline
@@ -81,7 +87,7 @@ You can implement your own Estimator, Classifier or Transformer with
 
 There is also a [class](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.FunctionTransformer.html#sklearn.preprocessing.FunctionTransformer) to create a transformer from an existing function.
 
-## Neural Networks
+## Deep Learning: Neural Networks
 
 ### Udacity GitHub repos
 
@@ -93,6 +99,8 @@ https://github.com/udacity/DSND_Term1
 Using [momentum](https://distill.pub/2017/momentum/) with gradient descent to avoid falling into local minimum.
 
 [Optimization algorithms](https://ruder.io/optimizing-gradient-descent/index.html#rmsprop)
+
+An [overview](https://ruder.io/optimizing-gradient-descent/index.html) of gradient descent algorithms.
 
 ### Backpropagation algorithm
 
@@ -108,10 +116,30 @@ PyTorch API [documentation](https://pytorch.org/docs/stable/torch.html).
 
 [Optimizers](https://keras.io/optimizers/)
 
+Training [progress](https://www.machinecurve.com/index.php/2019/10/08/how-to-visualize-the-training-process-in-keras/) with Keras.
+
+### TensorFlow
+
+How to install with [conda](https://towardsdatascience.com/tensorflow-gpu-installation-made-easy-use-conda-instead-of-pip-52e5249374bc).
+
+[Migrating](https://www.tensorflow.org/guide/migrate) TensorFlow 1.x to 2.x. Which is a pain in the neck, the better option is to start working with TensorFlow 2.x using tf.keras instead of Keras alone. Check [here](https://www.pyimagesearch.com/2019/10/21/keras-vs-tf-keras-whats-the-difference-in-tensorflow-2-0/) for more information.
+
+Official [tutorials](https://www.tensorflow.org/tutorials).
+
+[Custom](https://towardsdatascience.com/custom-loss-function-in-tensorflow-2-0-d8fa35405e4e) loss function.
+
+YouTube tutorial by [freeCodeCamp.org](https://www.youtube.com/watch?v=tPYj3fFJGjk).
+
 ### CUDA
 
 We can use the `nvidia-smi` command to monitor the GPU usage.
 
+To [de-activate](https://datascience.stackexchange.com/questions/58845/how-to-disable-gpu-with-tensorflow) CUDA to avoid GPU processing.
 
+### Loss functions
+
+When to use [cross-entropy](https://peltarion.com/knowledge-center/documentation/modeling-view/build-an-ai-model/loss-functions/categorical-crossentropy).
+
+[Cross-entropy](https://en.wikipedia.org/wiki/Cross_entropy) function.
 
 
