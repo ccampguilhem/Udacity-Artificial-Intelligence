@@ -6,7 +6,7 @@ Cédric Campguilhem, 2020
 
 Project | Description                     | Link
 --------|---------------------------------|------- 
-01      | Deep learning: image classifier | ./02_Deep_Neural_Networks/P01_Image_Classifier/Image_Classifier_Project.ipynb
+01      | Deep learning: image classifier | [link](./02_Deep_Neural_Networks/P01_Image_Classifier/Image_Classifier_Project.ipynb)
 
 ## Data Engineering
 
@@ -112,6 +112,8 @@ PyTorch [installation](https://pytorch.org/get-started/locally/).
 
 PyTorch API [documentation](https://pytorch.org/docs/stable/torch.html).
 
+PyTorch [tutorial](https://github.com/yunjey/pytorch-tutorial).
+
 ### Keras
 
 [Optimizers](https://keras.io/optimizers/)
@@ -141,5 +143,40 @@ To [de-activate](https://datascience.stackexchange.com/questions/58845/how-to-di
 When to use [cross-entropy](https://peltarion.com/knowledge-center/documentation/modeling-view/build-an-ai-model/loss-functions/categorical-crossentropy).
 
 [Cross-entropy](https://en.wikipedia.org/wiki/Cross_entropy) function.
+
+### Convolutional Neuron Networks
+
+[Object detection](https://lilianweng.github.io/lil-log/2017/12/31/object-recognition-for-dummies-part-3.html).
+
+[Semantic segmentation](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review).
+
+[Image captioning](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning).
+
+## Constraint Satisfaction Problems
+
+A [blog post](http://norvig.com/sudoku.html) by Peter Norvig to solve Sudoku.
+
+A [paper](https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf) on Deep Neural Network combined with tree search for Alpha Go algorithm.
+
+A lecture on [topological search](https://courses.cs.washington.edu/courses/cse326/03wi/lectures/RaoLect20.pdf).
+
+The [Z3](https://github.com/Z3Prover/z3/wiki#background) library for solving CSP's.
+
+[Graph coloring](https://en.wikipedia.org/wiki/Graph_coloring).
+
+[Google OR Tools](https://developers.google.com/optimization/introduction/overview) documentation for CS problems.
+
+A [book](https://yurichev.com/writings/SAT_SMT_by_example.pdf) with a lot of examples of problem resolutions.
+
+A [survey](https://hal.archives-ouvertes.fr/hal-01230685) on tractability.
+
+A [paper](https://www.cs.cornell.edu/gomes/papers/satsolvers-kr-handbook.pdf) on satisfiability solvers.
+
+A [paper](http://www.optimization-online.org/DB_FILE/2012/02/3378.pdf) on non-convex mixed-integer non-linear problems.
+
+A [paper](https://www.andrew.cmu.edu/user/vanhoeve/papers/alldiff.pdf) on AllDifferent constraint.
+
+
+
 
 
