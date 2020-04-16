@@ -182,6 +182,21 @@ A [paper](https://www.andrew.cmu.edu/user/vanhoeve/papers/alldiff.pdf) on AllDif
 
 [PyMC3](https://docs.pymc.io/notebooks/bayesian_neural_network_advi.html) library for probabilistic models.
 
+[Sentiment classification](https://web.stanford.edu/~jurafsky/slp3/4.pdf) using Naive Bayes (also available here /files/cedric/personnel/informatique/ebooks/Probabilistic Models/naive_bayes_sentiment_analysis.pdf).
+
+### Dynamic Time Wrapping
+
+An [article](http://wearables.cc.gatech.edu/paper_of_week/DTW_myths.pdf) on Dynamic Time wrapping (also available here: /files/cedric/personnel/informatique/ebooks/Probabilistic Models/dynamic_time_warping_myths.pdf).
+
+### Hidden Markov Model
+
+The handbook of [HTK](http://speech.ee.ntu.edu.tw/homework/DSP_HW2-1/htkbook.pdf), the Hidden Markov Model toolkit (also available here /files/cedric/personnel/informatique/ebooks/Probabilistic Models/htkbook_hidden_markov_toolkit.pdf).
+
+The online documentation is also [there](http://htk.eng.cam.ac.uk/download.shtml).
+
+### Recurrent Networks
+
+As an alternative to Hidden Markov Model, here is a recurrent network for [sequence analysis](https://web.stanford.edu/~jurafsky/slp3/9.pdf) (also available here /files/cedric/personnel/informatique/ebooks/Probabilistic Models/sequence_processing_with_recurent_network.pdf).
 
 
 
