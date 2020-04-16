@@ -176,6 +176,12 @@ A [paper](http://www.optimization-online.org/DB_FILE/2012/02/3378.pdf) on non-co
 
 A [paper](https://www.andrew.cmu.edu/user/vanhoeve/papers/alldiff.pdf) on AllDifferent constraint.
 
+## Probabilistic models
+
+### Bayes Networks
+
+[PyMC3](https://docs.pymc.io/notebooks/bayesian_neural_network_advi.html) library for probabilistic models.
+
 
 
 
