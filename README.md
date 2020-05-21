@@ -198,6 +198,24 @@ The online documentation is also [there](http://htk.eng.cam.ac.uk/download.shtml
 
 As an alternative to Hidden Markov Model, here is a recurrent network for [sequence analysis](https://web.stanford.edu/~jurafsky/slp3/9.pdf) (also available here /files/cedric/personnel/informatique/ebooks/Probabilistic Models/sequence_processing_with_recurent_network.pdf).
 
+## Computer Vision
+
+### Image representation and classification
+
+![Computer Vision pipeline](./06_Computer_Vision/01_Image_Representation_and_Classification/images/pipeline.png).
+
+A reminder on [gradient descent algorithm](https://en.wikipedia.org/wiki/Gradient_descent).
+
+An intuitive [introduction](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/) to convolutional neuron network.
+
+OpenCV [website](https://opencv.org/) and [tutorials](https://opencv-python-tutroals.readthedocs.io/en/latest/index.html).
+
+Changing colorspaces with [OpenCV](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_colorspaces/py_colorspaces.html).
+
+Colors on [W3Schools.com](https://www.w3schools.com/colors/default.asp).
+
+[AMOS](http://mvrl.cs.uky.edu/datasets/amos/) dataset used for day/night image classification.
+
 
 
 
