@@ -202,7 +202,7 @@ As an alternative to Hidden Markov Model, here is a recurrent network for [seque
 
 ### Image representation and classification
 
-![Computer Vision pipeline](./06_Computer_Vision/01_Image_Representation_and_Classification/images/pipeline.png).
+![Computer Vision pipeline](./06_Computer_Vision/01_Image_Representation_and_Classification/images/pipeline.png)
 
 A reminder on [gradient descent algorithm](https://en.wikipedia.org/wiki/Gradient_descent).
 
@@ -215,6 +215,39 @@ Changing colorspaces with [OpenCV](https://opencv-python-tutroals.readthedocs.io
 Colors on [W3Schools.com](https://www.w3schools.com/colors/default.asp).
 
 [AMOS](http://mvrl.cs.uky.edu/datasets/amos/) dataset used for day/night image classification.
+
+### Convolutional filters and edge detection
+
+[Fourier transform](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_transforms/py_fourier_transform/py_fourier_transform.html) with OpenCV: high-pass filter for edge detection.
+
+[Smoothing](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_filtering/py_filtering.html) images using filters in OpenCV.
+
+[Gaussian blur](https://en.wikipedia.org/wiki/Gaussian_blur) on Wikipedia.
+
+[Canny edge detection](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_canny/py_canny.html) algorithm.
+
+An explanation of the [Hough transform](http://homepages.inf.ed.ac.uk/rbf/HIPR2/hough.htm).
+
+How to apply [Hough transform](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html) with OpenCV.
+
+[Identifying road lanes](https://towardsdatascience.com/teaching-cars-to-see-advanced-lane-detection-using-computer-vision-87a01de0424f) for self-driving cars.
+
+[Joy Buolamwini](https://www.media.mit.edu/people/joyab/overview/) fighting agianst bias in algorithms, [gender shades](http://gendershades.org/index.html) bias, and her [TED talk](https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms) and [article](https://video.udacity-data.com/topher/2018/June/5b2c01ba_gender-shades-paper/gender-shades-paper.pdf).
+
+[Fairness](https://godatadriven.com/blog/fairness-in-machine-learning-with-pytorch/) in machine learning with PyTorch.
+
+[Delayed impact of fair machine learning](https://bair.berkeley.edu/blog/2018/05/17/delayed-impact/) from Berkeley Airtificial Intelligence Research (BAIR).
+
+[Can we keep our biases from creeping into AI?](https://hbr.org/2018/02/can-we-keep-our-biases-from-creeping-into-ai?utm_campaign=hbr&utm_source=twitter&utm_medium=social) in Harvard Business Review.
+
+
+
+
+### Types of features and image segmentation
+
+
+
+
 
 
 
