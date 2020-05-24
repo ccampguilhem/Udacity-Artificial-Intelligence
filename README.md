@@ -240,10 +240,14 @@ How to apply [Hough transform](https://opencv-python-tutroals.readthedocs.io/en/
 
 [Can we keep our biases from creeping into AI?](https://hbr.org/2018/02/can-we-keep-our-biases-from-creeping-into-ai?utm_campaign=hbr&utm_source=twitter&utm_medium=social) in Harvard Business Review.
 
-
-
-
 ### Types of features and image segmentation
+
+[Harris corner detection](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_features_harris/py_features_harris.html) with OpenCV.
+
+[Contour detection](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_contours/py_table_of_contents_contours/py_table_of_contents_contours.html) with OpenCV.
+
+[K-Means clustering](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_ml/py_kmeans/py_kmeans_opencv/py_kmeans_opencv.html) with OpenCV.
+
 
 
 
