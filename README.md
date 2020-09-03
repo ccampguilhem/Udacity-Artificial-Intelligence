@@ -248,6 +248,14 @@ How to apply [Hough transform](https://opencv-python-tutroals.readthedocs.io/en/
 
 [K-Means clustering](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_ml/py_kmeans/py_kmeans_opencv/py_kmeans_opencv.html) with OpenCV.
 
+### Features vectors
+
+Histograms of Oriented Gradients (HOG) in [OpenCV](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_histograms/py_table_of_contents_histograms/py_table_of_contents_histograms.html).
+
+### CNN and Features Visualization
+
+
+
 
 
 
