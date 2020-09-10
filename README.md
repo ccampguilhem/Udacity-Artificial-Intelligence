@@ -254,6 +254,26 @@ Histograms of Oriented Gradients (HOG) in [OpenCV](https://opencv-python-tutroal
 
 ### CNN and Features Visualization
 
+An introduction to [CNN](https://cezannec.github.io/Convolutional_Neural_Networks/).
+
+[PyTorch vs TensorFlow](https://towardsdatascience.com/pytorch-vs-tensorflow-1-month-summary-35d138590f9).
+
+The [fashion-mnist](https://github.com/zalandoresearch/fashion-mnist) dataset.
+
+[Pooling](https://pytorch.org/docs/stable/nn.html#pooling-layers) layers in Pytorch.
+
+Visualization of neural net with [deconvolution](https://arxiv.org/pdf/1412.6806.pdf).
+
+[Visualizing and understanding](https://video.udacity-data.com/topher/2018/April/5adf876c_visualizing-conv-nets/visualizing-conv-nets.pdf) convolutional neuron networks, also [here](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf) and this [Youtube](https://www.youtube.com/watch?v=ghEmQSxT6tw) video.
+
+[What NN see](https://experiments.withgoogle.com/what-neural-nets-see) explaining video.
+
+[Batch normalization](https://towardsdatascience.com/batch-normalization-in-neural-networks-1ac91516821c) article in Towards Data Science.
+
+[AlexNet](https://medium.com/@smallfishbigsea/a-walk-through-of-alexnet-6cbd137a5637) architecture explained.
+
+
+
 
 
 
