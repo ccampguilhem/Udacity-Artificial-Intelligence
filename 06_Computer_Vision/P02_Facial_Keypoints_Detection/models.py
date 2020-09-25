@@ -3,7 +3,7 @@
 Udacity - Airbus Artificial Intelligence Nanodegree
 Cédric Campguilhem - Mars 2020
 """
-from typing import Optional, Any, Sequence, Tuple, List, Union, Iterable
+from typing import Optional, Any, Sequence, Tuple, List, Union
 from collections import OrderedDict
 import traceback
 import time
@@ -11,12 +11,10 @@ import sys
 from functools import reduce
 import itertools
 
-from torch.autograd import Variable
 import torch
 import torch.utils
 import torch.nn as nn
 from torchvision import models
-import torch.nn.functional as F
 import numpy as np
 
 
@@ -93,8 +91,9 @@ def weight_initialization(m: nn.Module) -> None:
         # nn.init.uniform(m.weight, 0., 0.)
 
 
-def build_neuron_network(nb_features_map: Sequence[int] = [8],
-                         size_linear_layers: Sequence[int] = [],
+# noinspection PyUnresolvedReferences
+def build_neuron_network(nb_features_map: Union[Sequence[int], None] = None,
+                         size_linear_layers: Union[Sequence[int], None] = None,
                          dropout_rate: Union[Tuple[float, float], float] = 0.3,
                          conv_kernel_size: Union[Sequence[int], int] = 3,
                          conv_stride: int = 1,
@@ -109,7 +108,7 @@ def build_neuron_network(nb_features_map: Sequence[int] = [8],
                          optimizer: str = "Adam",
                          weight_decay: float = 0.,
                          learning_rate: float = 0.001,
-                         ) -> Tuple[nn.Module, nn.Module, torch.optim.Optimizer, List]:
+                         ) -> Tuple[nn.Module, List, torch.optim.Optimizer]:
     """
     This function creates a CNN model based on the provided hyper-parameters.
     This will be useful to make hyper-parameter optimization later.
@@ -161,6 +160,10 @@ def build_neuron_network(nb_features_map: Sequence[int] = [8],
         channels = 1
     else:
         channels = 3
+    if nb_features_map is None:
+        nb_features_map = [8]
+    if size_linear_layers is None:
+        size_linear_layers = []
     height = 224
     width = 224
     module = nn.Module()
@@ -179,6 +182,7 @@ def build_neuron_network(nb_features_map: Sequence[int] = [8],
             conv_kernel_size = [conv_kernel_size] * len(nb_features_map)
         # Feature extractor
         next_layer_type = itertools.cycle(conv_architecture)
+        nb_feature_map = None
         i = 0
         while True:
             layer_type = next(next_layer_type)
@@ -208,7 +212,8 @@ def build_neuron_network(nb_features_map: Sequence[int] = [8],
                     activ = nn.ReLU()
                 name = "{}-{:02d}".format(conv_activation, i)
                 layers["extractor"].append((name, activ))
-                shapes.append((name, shapes[-1][1], shapes[-1][2], shapes[-1][3]))  # activation does not change the size
+                # activation does not change the size
+                shapes.append((name, shapes[-1][1], shapes[-1][2], shapes[-1][3]))
             elif layer_type == "P":
                 # Max-pooling
                 name = "maxpool2d-{:02d}".format(i)
@@ -223,14 +228,16 @@ def build_neuron_network(nb_features_map: Sequence[int] = [8],
                     name = "dropout-{:02d}".format(i)
                     dropout = nn.Dropout(p=next_dropout_rate)
                     layers["extractor"].append((name, dropout))
-                    shapes.append((name, shapes[-1][1], shapes[-1][2], shapes[-1][3]))  # Dropout does not change the size
+                    # Dropout does not change the size
+                    shapes.append((name, shapes[-1][1], shapes[-1][2], shapes[-1][3]))
                     next_dropout_rate += dropout_rate[1]
             elif layer_type == "B":
                 # Batch normalization
                 name = "batchnorm-{:02d}".format(i)
                 batch = nn.BatchNorm2d(shapes[-1][1])
                 layers["extractor"].append((name, batch))
-                shapes.append((name, shapes[-1][1], shapes[-1][2], shapes[-1][3])) # Batch norm. does not change the size
+                # Batch norm. does not change the size
+                shapes.append((name, shapes[-1][1], shapes[-1][2], shapes[-1][3]))
         # Add a flatten layer
         name = "flatten"
         flatten = nn.Flatten(1)
@@ -339,7 +346,6 @@ class Net(nn.Module):
         Predict key points on given images
 
         :param x: batch of images to be processed
-        :param device: device to be used for fitting: 'cuda:0' or 'cpu'
         :return: key points coordinates
         """
         # Set model to evaluation mode to deactivate dropouts
@@ -369,6 +375,7 @@ class Net(nn.Module):
         in failure in all subsequent attempts to fit any model on GPU device.
 
         :param train_loader: train loader
+        :param valid_loader: validation loader
         :param epochs: number of epochs
         :param device: device to be used for fitting: 'cuda:0' or 'cpu'
         """
@@ -546,14 +553,6 @@ class Net(nn.Module):
                 c_trained += increment
             c_total += increment
         return c_trained, c_total
-
-    def iter_modules(self, root):
-        print(root)
-        for name, module in root.named_children():
-            if type(module) == nn.Sequential:
-                return self.iter_modules(module)
-            else:
-                yield name, module
 
     def sub_model(self, layer: str) -> nn.Module:
         """
