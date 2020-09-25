@@ -7,6 +7,8 @@ Cédric Campguilhem, 2020
 Project | Description                     | Link
 --------|---------------------------------|------- 
 01      | Deep learning: image classifier | [link](./02_Deep_Neural_Networks/P01_Image_Classifier/Image_Classifier_Project.ipynb)
+02      [ Computer Vision                 | [Link](./06_Computer_Vision/P02_Facial_Keypoints_Detection/03_Facial_keypoint_detection.ipynb)
+
 
 ## Data Engineering
 
@@ -271,6 +273,9 @@ Visualization of neural net with [deconvolution](https://arxiv.org/pdf/1412.6806
 [Batch normalization](https://towardsdatascience.com/batch-normalization-in-neural-networks-1ac91516821c) article in Towards Data Science.
 
 [AlexNet](https://medium.com/@smallfishbigsea/a-walk-through-of-alexnet-6cbd137a5637) architecture explained.
+
+## Natural Language Processing
+
 
 
 
