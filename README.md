@@ -7,7 +7,7 @@ Cédric Campguilhem, 2020
 Project | Description                     | Link
 --------|---------------------------------|------- 
 01      | Deep learning: image classifier | [link](./02_Deep_Neural_Networks/P01_Image_Classifier/Image_Classifier_Project.ipynb)
-02      [ Computer Vision                 | [Link](./06_Computer_Vision/P02_Facial_Keypoints_Detection/03_Facial_keypoint_detection.ipynb)
+02      | Computer Vision                 |[link](./06_Computer_Vision/P02_Facial_Keypoints_Detection/03_Facial_keypoint_detection.ipynb)
 
 
 ## Data Engineering
@@ -275,6 +275,30 @@ Visualization of neural net with [deconvolution](https://arxiv.org/pdf/1412.6806
 [AlexNet](https://medium.com/@smallfishbigsea/a-walk-through-of-alexnet-6cbd137a5637) architecture explained.
 
 ## Natural Language Processing
+
+### Tools and libraries
+
+Working with text data with [pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/text.html).
+
+The regular expression module of [python](https://docs.python.org/3/library/re.html).
+
+Documentation to use [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
+
+NLTK documenation for the [tokenizer](http://www.nltk.org/api/nltk.tokenize.html) package.
+
+[pomegranate](https://github.com/jmschrei/pomegranate) library for Hidden Markov Models (among many others...).
+
+### Other materials
+
+Sequence processing with recurrent networks [article](https://web.stanford.edu/~jurafsky/slp3/9.pdf).
+
+Encoder-Decoder Models, Attention, and Contextual Embeddings [article](https://web.stanford.edu/~jurafsky/slp3/10.pdf).
+
+New aggregator dataset on [UCI machine learning repository](https://archive.ics.uci.edu/ml/datasets/News+Aggregator).
+
+Universal part-of-speedch tagging [article](http://www.petrovi.de/data/universal.pdf).
+
+The API use of [quotes](http://quotes.rest/) to get famous quotes.
 
 
 
