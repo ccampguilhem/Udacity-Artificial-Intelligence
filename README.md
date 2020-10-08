@@ -7,8 +7,13 @@ Cédric Campguilhem, 2020
 Project | Description                     | Link
 --------|---------------------------------|------- 
 01      | Deep learning: image classifier | [link](./02_Deep_Neural_Networks/P01_Image_Classifier/Image_Classifier_Project.ipynb)
-02      | Computer Vision                 |[link](./06_Computer_Vision/P02_Facial_Keypoints_Detection/03_Facial_keypoint_detection.ipynb)
+02      | Computer Vision                 | [link](./06_Computer_Vision/P02_Facial_Keypoints_Detection/02_Define_network_architecture.ipynb) and [link](./06_Computer_Vision/P02_Facial_Keypoints_Detection/03_Facial_keypoint_detection.ipynb)
+03      | Natural Language Processing     | [link](./07_Natural_Language_Processing/P03_Part_of_speech_tagging/HMM_Tagger.ipynb)
 
+
+## Artificial Intelligence ressources
+
+[Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/).
 
 ## Data Engineering
 
@@ -286,7 +291,7 @@ Documentation to use [BeautifulSoup](https://www.crummy.com/software/BeautifulSo
 
 NLTK documenation for the [tokenizer](http://www.nltk.org/api/nltk.tokenize.html) package.
 
-[pomegranate](https://github.com/jmschrei/pomegranate) library for Hidden Markov Models (among many others...).
+[pomegranate](https://github.com/jmschrei/pomegranate) library for Hidden Markov Models (among many others...). And the documentation [here](https://pomegranate.readthedocs.io/en/latest/HiddenMarkovModel.html#initialization).
 
 ### Other materials
 
@@ -299,6 +304,7 @@ New aggregator dataset on [UCI machine learning repository](https://archive.ics.
 Universal part-of-speedch tagging [article](http://www.petrovi.de/data/universal.pdf).
 
 The API use of [quotes](http://quotes.rest/) to get famous quotes.
+
 
 
 
