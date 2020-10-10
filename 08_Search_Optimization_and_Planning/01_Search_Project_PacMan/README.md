@@ -35,7 +35,7 @@ the `search.py.enc` and `searchAgents.py.enc` files:
 python encrypt.py -d
 ```
 
-To generate an encrypted version of the file:
+To generate an encrypted version of the files:
 ```
 python encrypt.py
 ```
