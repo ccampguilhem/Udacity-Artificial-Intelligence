@@ -29,8 +29,8 @@ I have used code provided by Eli Bendersky for encrypting/decrypting the solutio
 
 ## Most important commands
 
-Before running the auto-grader, it is mandatory to generate the `search.py` module by decrypting the 
-`search.py.enc` file:
+Before running the auto-grader, it is mandatory to generate the `search.py` and `searchAgents.py` modules by decrypting 
+the `search.py.enc` and `searchAgents.py.enc` files:
 ```
 python encrypt.py -d
 ```

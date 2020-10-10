@@ -97,5 +97,7 @@ if __name__ == '__main__':
     key = hashlib.sha256(passphrase.encode('utf-8')).digest()
     if mode == "encrypt":
         encrypt_file(key, "search.py", "search.py.enc")
+        encrypt_file(key, "searchAgents.py", "searchAgents.py.enc")
     else:
         decrypt_file(key, "search.py.enc")
+        decrypt_file(key, "searchAgents.py.enc")
