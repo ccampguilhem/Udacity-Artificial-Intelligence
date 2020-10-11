@@ -45,6 +45,13 @@ To run the auto-grader to validate the project:
 python autograder.py
 ```
 
+To test the search functions implemented:
+```
+python pacman.py -l tinyMaze -p SearchAgent -a fn=[dfs|bfs]
+python pacman.py -l mediumMaze -p SearchAgent -a fn=[dfs|bfs]
+python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=[dfs|bfs]
+```
+
 To play a game of Pac-Man:
 ```
 python pacman.py
