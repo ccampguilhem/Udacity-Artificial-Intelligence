@@ -307,6 +307,19 @@ Universal part-of-speedch tagging [article](http://www.petrovi.de/data/universal
 
 The API use of [quotes](http://quotes.rest/) to get famous quotes.
 
+## Search, Optimization and Planning
+
+### Search algorithms
+
+A mini-project that I have implemented during the lesson: http://ai.berkeley.edu/project_overview.html. The source code of what I did [here]([link](./08_Search_Optimization_and_Planning01_Search_Project_PacMan). The projet makes use of Deep-First Search, Breadth-First Search, Uniform-Cost Search and A* algorithms.
+
+Other algorithm for search: https://www.ise.bgu.ac.il/faculty/felner/papers/2011/socs/dikstra.pdf.
+
+A [variant](http://theory.stanford.edu/~amitp/GameProgramming/Variations.html) to A*.
+
+An alternative to A*: [Jump Point search](https://en.wikipedia.org/wiki/Jump_point_search).
+
+
 
 
 
