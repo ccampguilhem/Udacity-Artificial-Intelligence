@@ -279,6 +279,8 @@ Visualization of neural net with [deconvolution](https://arxiv.org/pdf/1412.6806
 
 [AlexNet](https://medium.com/@smallfishbigsea/a-walk-through-of-alexnet-6cbd137a5637) architecture explained.
 
+A must-read [article](https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030) to make feature visualization.
+
 ## Natural Language Processing
 
 ### Tools and libraries

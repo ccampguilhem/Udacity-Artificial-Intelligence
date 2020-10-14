@@ -53,6 +53,26 @@ python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=[dfs|bfs]
 python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
 ```
 
+To test the corners problem:
+
+```
+python pacman.py -l mediumCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
+python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5 #this is A*
+```
+
+To test the eat all food problems:
+
+```
+python pacman.py -l trickySearch -p AStarFoodSearchAgent
+python pacman.py -l mediumSearch -p AStarFoodSearchAgent # very long :)
+```
+
+The sub-optimal solution:
+
+```
+python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5 
+```
+
 To play a game of Pac-Man:
 ```
 python pacman.py
