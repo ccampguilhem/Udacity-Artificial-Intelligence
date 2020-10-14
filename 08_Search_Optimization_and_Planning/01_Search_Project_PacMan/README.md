@@ -64,7 +64,7 @@ To test the eat all food problems:
 
 ```
 python pacman.py -l trickySearch -p AStarFoodSearchAgent
-python pacman.py -l mediumSearch -p AStarFoodSearchAgent # very long :)
+python pacman.py -l mediumSearch -p AStarFoodSearchAgent # tool long... does not converge
 ```
 
 The sub-optimal solution:
